@@ -1,5 +1,8 @@
 <% var defaultBg = '#4d4d4d'; %>
-<div class="overlay" style="background: <%= theme.style && theme.style.header ? theme.style.header : defaultBg %>"></div>
+<!-- <div class="overlay" style="background: <%= theme.style && theme.style.header ? theme.style.header : defaultBg %>"></div> -->
+<!--×ó²à±ßÀ¸£¨ÉÏ°ë²¿·Ö£©²»ÉèÖÃ±³¾°ÑÕÉ«-->
+<div class="overlay"></div>
+
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="<%=theme.root%>" class="profilepic">
@@ -32,6 +35,13 @@
 					<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><i class="icon-<%= i %>"></i></a>
 		        <%}%>
 			</div>
+
+<!--×ó²àÌí¼ÓÍøÒ×ÔÆ±³¾°ÒôÀÖ--> 
+		<div style="position:absolute; bottom:120px left:auto; width:85%; z-index: 99999">
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=240 height=86 src="//music.163.com/outchain/player?type=2&id=2788529&auto=1&height=66"></iframe>
+		</div>
+
 		</nav>
-	</header>		
+	</header>	
+
 </div>
