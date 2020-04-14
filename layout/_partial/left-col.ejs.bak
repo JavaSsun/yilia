@@ -23,7 +23,7 @@
 			</ul>
 		</nav>
 		
-		<nav style="color: #7FFFD4;">总文章数 <%=site.posts.length%></nav>
+		<nav style="color: #228B22;">总文章数 <%=site.posts.length%></nav>
 
 		<nav class="header-smart-menu">
     		<% for (var i in theme.smart_menu){ %>
